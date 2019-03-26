@@ -1,17 +1,16 @@
-# To-do application in ASP.NET Core 2.0
+# Aplicación de tareas pendientes en ASP.NET Core 2.0
 
-This project is the output of **[The Little ASP.NET Core Book](http://littleasp.net/book)**, a short tutorial that teaches you how to build applications using ASP.NET Core.
+Este proyecto es el ejemplo desarrollado en **[El pequeño libro de ASP.NET Core](https://aspnetcoremaster.com/asp.net/core/2019/03/17/libro-asp-net-core.html)**, un tutorial que te enseña a construir aplicaciones web usando ASP.NET Core. 
 
-## Try it out
+## Prueba la aplicación
 
-Make sure you have the [.NET Core SDK](https://www.microsoft.com/net/download/macos) installed on your machine. Then do:
+Asegurate de tener instalado el [SDK de .NET Core 2.0](https://dotnet.microsoft.com/download/dotnet-core/2.0) en tu computadora. Después ejecuta lo siguiente en la línea de comandos:
 
 ```
-git clone https://github.com/nbarbettini/little-aspnetcore-todo.git
+git clone https://github.com/jahbenjah/little-aspnetcore-todo
 cd little-aspnetcore-todo
 dotnet run
 ```
 
-## Questions? Comments?
-
-If you run into trouble, feel free to [file an issue](https://github.com/nbarbettini/little-aspnetcore-todo/issues) here on Github.
+## Preguntas o comentarios
+Si tienes problemas para correr la aplicación, abre una [incidencia en Github](https://github.com/jahbenjah/little-aspnetcore-todo/issues).
