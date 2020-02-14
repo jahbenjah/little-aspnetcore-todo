@@ -28,7 +28,7 @@ namespace AspNetCoreTodo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -62,10 +62,9 @@ namespace AspNetCoreTodo
 
             app.UseRouting();
 
-            app.UseAuthorization();
-
             app.UseAuthentication();
-
+            
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
