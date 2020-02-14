@@ -5,7 +5,7 @@
         markCompleted(e.target);
     });
 });
-    
+
 function markCompleted(checkbox) {
     checkbox.disabled = true;
 
